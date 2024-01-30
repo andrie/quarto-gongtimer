@@ -34,7 +34,7 @@ To change default options, use:
 format: 
   revealjs:
     gongtimer:
-      - allottedTime: 1
+      - allottedTime: 1 # time in minutes
 revealjs-plugins: 
   - gongtimer
 ```

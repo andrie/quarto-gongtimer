@@ -35,15 +35,15 @@ To change default options, use:
 format: 
   revealjs:
     gongtimer:
-      - allottedTime: 1
+      - allottedTime: 1 # time in minutes
 revealjs-plugins: 
   - gongtimer
 ```
 
 You can change these options:
 
-| Option              | Description                                                 |
-|------------------|------------------------------------------------------|
-| `allottedTime`      | Time in minutes for the presentation (default is 5 minutes) |
-| `progressBarHeight` | Height (in pixels) of the page / time progress bar          |
-| `barColor`          | Bar color, expressed as hex `#00ff00` or `rgb(0, 255, 0)`   |
+| Option              | Description                                                    |
+|---------------------|----------------------------------------------------------------|
+| `allottedTime`      | Time in minutes for the presentation (default is 5 minutes)    |
+| `progressBarHeight` | Height (in pixels) of the page / time progress bar             |
+| `barColor`          | Bar color, expressed as hex `#00ff00` or `rgb(0, 255, 0)`  |
