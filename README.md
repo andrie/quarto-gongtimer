@@ -6,7 +6,7 @@ bottom of the presentation.
 
 This is based on the `ElapsedTimeBar` Reveal.js extension
 
-https://github.com/wicksome/reveal.js-elapsed-time-bar
+https://github.com/tkrkt/reveal.js-elapsed-time-bar
 
 ## Installation
 
@@ -46,3 +46,11 @@ You can change these options:
 | `allottedTime`      | Time in minutes for the presentation (default is 5 minutes) |
 | `progressBarHeight` | Height (in pixels) of the page / time progress bar          |
 | `barColor`          | Bar color, expressed as hex `#00ff00` or `rgb(0, 255, 0)`   |
+
+## More information about Quarto extensions
+
+Refer to https://quarto.org/docs/extensions/
+
+## License
+
+This work is licensed under an MIT license, (c) 2024 Andrie de Vries

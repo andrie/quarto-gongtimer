@@ -1,3 +1,8 @@
+// MIT License
+// tkrkt/reveal.js-elapsed-time-bar
+// https://github.com/tkrkt/reveal.js-elapsed-time-bar
+// with minor modifications by Andrie de Vries to support Quarto
+
 var _gong = {
   // default value
   barColor: 'rgb(200,0,0)',

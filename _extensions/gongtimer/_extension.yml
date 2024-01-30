@@ -1,5 +1,5 @@
 name: gongtimer
-script: [gong.js]
+script: [elapsed_time_bar.js]
 
 title: gongtimer
 author: Andrie de Vries
@@ -9,7 +9,7 @@ contributes:
   revealjs-plugins:
     - name: gongtimer
       script:
-        - gong.js
+        - elapsed_time_bar.js
       config:
         gongtimer:
           # // - (required) your allotted time for presentation
