@@ -4,14 +4,16 @@ subtitle: "Using the `gong` quarto extension to create an elapsed time bar"
 author: "Andrie de Vries"
 format: 
   revealjs:
-    gong:
-      - allottedTime: 3
+    gongtimer:
+      - allottedTime: 1
 revealjs-plugins: 
-  - gong
+  - gongtimer
 ---
 
 ## This adds a time bar
 
+The time bar is at the bottom of your screen.
+
 ## Why is it called gong?
 
-Because Hadley
+Because of a long tradition at RStudio / Posit where lightning talks are timed out by Hadley beating on a gong.

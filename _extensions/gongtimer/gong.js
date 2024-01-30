@@ -149,17 +149,17 @@ var _gong = {
 
 const initGong = function(deck) {
   const config = deck.getConfig();
-  const options = config.gong || {}; 
-  options.allottedTime = options.allottedTime || 3 * 60 * 1000;
+  const options = config.gongtimer || {}; 
+  options.allottedTime = options.allottedTime * 60 * 1000;
   console.log('options', options)
   console.log('allottedTime', options.allottedTime);
   window.addEventListener('ready', () => _gong.handleReady(options));
 }
 
 
-window.gong = window.gong || function() {
+window.gongtimer = window.gongtimer || function() {
   return {
-    id: 'gong',
+    id: 'gongtimer',
     init: (deck) => {
       initGong(deck);
     },
