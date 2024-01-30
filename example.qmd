@@ -1,0 +1,17 @@
+---
+title: "gong"
+subtitle: "Using the `gong` quarto extension to create an elapsed time bar"
+author: "Andrie de Vries"
+format: 
+  revealjs:
+    gong:
+      - allottedTime: 3
+revealjs-plugins: 
+  - gong
+---
+
+## This adds a time bar
+
+## Why is it called gong?
+
+Because Hadley
