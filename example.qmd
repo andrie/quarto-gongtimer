@@ -1,11 +1,11 @@
 ---
-title: "gong"
-subtitle: "Using the `gong` quarto extension to create an elapsed time bar"
+title: "gongtimer"
+subtitle: "Using the `gongtimer` quarto extension to create an elapsed time bar"
 author: "Andrie de Vries"
 format: 
   revealjs:
     gongtimer:
-      - allottedTime: 1
+      - allottedTime: 1 # time in minutes
 revealjs-plugins: 
   - gongtimer
 ---
@@ -14,6 +14,6 @@ revealjs-plugins:
 
 The time bar is at the bottom of your screen.
 
-## Why is it called gong?
+## Why is it called gongtimer?
 
 Because of a long tradition at RStudio / Posit where lightning talks are timed out by Hadley beating on a gong.
