@@ -10,6 +10,11 @@ This is based on the `ElapsedTimeBar` Reveal.js extension
 
 https://github.com/tkrkt/reveal.js-elapsed-time-bar
 
+
+## Live preview
+
+You can see a live preview at https://andrie.quarto.pub/gongtimer
+
 ## Installation
 
 To install this extension in your current directory (or into the Quarto project that you're currently working in), use the following command:
@@ -17,6 +22,7 @@ To install this extension in your current directory (or into the Quarto project 
 ``` shell
 quarto install extension andrie/quarto-gongtimer
 ```
+
 
 ## Enabling
 
@@ -52,6 +58,15 @@ You can change these options:
 ## More information about Quarto extensions
 
 Refer to https://quarto.org/docs/extensions/
+
+
+## Acknowledgements
+
+This extension is based on the `ElapsedTimeBar` Reveal.js extension by tkrkt
+
+
+<https://github.com/tkrkt/reveal.js-elapsed-time-bar
+
 
 ## License
 

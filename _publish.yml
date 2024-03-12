@@ -1,0 +1,4 @@
+- source: example.qmd
+  quarto-pub:
+    - id: adba25b4-8029-43dc-b0d3-659dfd981389
+      url: 'https://andrie.quarto.pub/gongtimer'

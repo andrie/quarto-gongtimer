@@ -6,21 +6,22 @@ format:
   revealjs:
     gongtimer:
       - allottedTime: 1 # time in minutes
+    css: custom.css
 revealjs-plugins: 
   - gongtimer
 ---
 
 ## This adds a time bar
 
-The time bar is at the bottom of your screen.
+- The time bar is at the bottom of your screen.
 
-This time progress bar gives a visual indication of the elapsed and remaining time.
+- This time progress bar gives a visual indication of the elapsed and remaining time.
 
-The default value is set to 5 minutes, for typical lightning talks, but you can change this in the quarto yaml header.
+- The default value is set to 5 minutes, for typical lightning talks, but you can change this in the quarto yaml header.
 
 ## Changing the options
 
-To change default options, use:
+To change default options, modify the `yaml` header:
 
 ``` yaml
 format: 
@@ -36,13 +37,24 @@ revealjs-plugins:
 
 You can change these settings:
 
+
+:::{.smaller}
+
 | Option              | Description                                                    |
 |---------------------|----------------------------------------------------------------|
 | `allottedTime`      | Time in minutes for the presentation (default is 5 minutes)    |
 | `progressBarHeight` | Height (in pixels) of the page / time progress bar             |
 | `barColor`          | Bar color, expressed as hex `#00ff00` or `rgb(0, 255, 0)`  |
 
+:::
 
 ## Why is it called `gongtimer`?
 
 Because of a long tradition at RStudio / Posit where lightning talks are timed out by Hadley beating on a gong.
+
+## Acknowledgements
+
+This extension is based on the `ElapsedTimeBar` Reveal.js extension by tkrkt
+
+
+<https://github.com/tkrkt/reveal.js-elapsed-time-bar>

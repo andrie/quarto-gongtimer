@@ -142,22 +142,11 @@ var _gong = {
   }
 };
 
-// if (Reveal.isReady()) {
-//   ElapsedTimeBar.handleReady();
-// } else {
-//   Reveal.addEventListener('ready', () => ElapsedTimeBar.handleReady());
-//   Reveal.initialize({
-//     allottedTime: 3 * 60 * 1000, // 3 minutes  
-//   });
-
-// }
 
 const initGong = function(deck) {
   const config = deck.getConfig();
   const options = config.gongtimer || {}; 
   options.allottedTime = options.allottedTime * 60 * 1000;
-  console.log('options', options)
-  console.log('allottedTime', options.allottedTime);
   window.addEventListener('ready', () => _gong.handleReady(options));
 }
 

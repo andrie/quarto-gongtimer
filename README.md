@@ -51,6 +51,13 @@ You can change these options:
 
 Refer to https://quarto.org/docs/extensions/
 
+## Acknowledgements
+
+This extension is based on the `ElapsedTimeBar` Reveal.js extension by
+tkrkt
+
+<https://github.com/tkrkt/reveal.js-elapsed-time-bar>
+
 ## License
 
 This work is licensed under an MIT license, (c) 2024 Andrie de Vries

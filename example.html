@@ -96,6 +96,7 @@
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="example_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="custom.css">
   <link href="example_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="example_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="example_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -405,13 +406,15 @@ Andrie de Vries
 </section>
 <section id="this-adds-a-time-bar" class="slide level2">
 <h2>This adds a time bar</h2>
-<p>The time bar is at the bottom of your screen.</p>
-<p>This time progress bar gives a visual indication of the elapsed and remaining time.</p>
-<p>The default value is set to 5 minutes, for typical lightning talks, but you can change this in the quarto yaml header.</p>
+<ul>
+<li><p>The time bar is at the bottom of your screen.</p></li>
+<li><p>This time progress bar gives a visual indication of the elapsed and remaining time.</p></li>
+<li><p>The default value is set to 5 minutes, for typical lightning talks, but you can change this in the quarto yaml header.</p></li>
+</ul>
 </section>
 <section id="changing-the-options" class="slide level2">
 <h2>Changing the options</h2>
-<p>To change default options, use:</p>
+<p>To change default options, modify the <code>yaml</code> header:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> </span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span></span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="at">    </span><span class="fu">gongtimer</span><span class="kw">:</span></span>
@@ -422,6 +425,7 @@ Andrie de Vries
 <section id="changing-the-options-1" class="slide level2">
 <h2>Changing the options</h2>
 <p>You can change these settings:</p>
+<div class="smaller">
 <table>
 <colgroup>
 <col style="width: 24%">
@@ -448,10 +452,16 @@ Andrie de Vries
 </tr>
 </tbody>
 </table>
+</div>
 </section>
 <section id="why-is-it-called-gongtimer" class="slide level2">
 <h2>Why is it called <code>gongtimer</code>?</h2>
 <p>Because of a long tradition at RStudio / Posit where lightning talks are timed out by Hadley beating on a gong.</p>
+</section>
+<section id="acknowledgements" class="slide level2">
+<h2>Acknowledgements</h2>
+<p>This extension is based on the <code>ElapsedTimeBar</code> Reveal.js extension by tkrkt</p>
+<p><a href="https://github.com/tkrkt/reveal.js-elapsed-time-bar" class="uri">https://github.com/tkrkt/reveal.js-elapsed-time-bar</a></p>
 <div class="footer footer-default">
 
 </div>
